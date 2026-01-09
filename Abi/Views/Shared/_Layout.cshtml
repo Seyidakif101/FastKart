@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿﻿@using Abi.Abstractions
+@inject IBasketService _basketService
+@{
+    var basketItems = await _basketService.GetBasketItemsAsync();
+    var totalPrice = basketItems.Sum(x => x.Price * x.Count);
+}
+<!DOCTYPE html>
 <html lang="en">
 
 
@@ -22,7 +28,7 @@
           rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
           rel="stylesheet">
-
+    <link rel="stylesheet" href="~/assets/css/font-awesome.min.css" />
     <!-- bootstrap css -->
     <link id="rtl-link" rel="stylesheet" type="text/css" href="~/assets/css/vendors/bootstrap.css">
 
@@ -103,6 +109,7 @@
 
                     <div class="col-lg-3">
                         <ul class="about-list right-nav-about">
+                          
                             <li class="right-nav-list">
                                 <div class="dropdown theme-form-select">
                                     <button class="btn dropdown-toggle" type="button" id="select-language"
@@ -240,60 +247,50 @@
                                     </li>
                                     <li class="right-side">
                                         <div class="onhover-dropdown header-badge">
+                                            <a asp-controller="BasketItem" asp-action="Index" >
+
                                             <button type="button" class="btn p-0 position-relative header-wishlist">
-                                                <i data-feather="shopping-cart"></i>
+                                                <i  data-feather="shopping-cart"></i>
                                                 <span class="position-absolute top-0 start-100 translate-middle badge">
-                                                    2
+                                                    @basketItems.Count
                                                     <span class="visually-hidden">unread messages</span>
                                                 </span>
                                             </button>
-
+                                            </a>
                                             <div class="onhover-div">
                                                 <ul class="cart-list">
-                                                    <li class="product-box-contain">
-                                                        <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
-                                                                <img src="~/assets/images/vegetable/product/1.png"
-                                                                     class="blur-up lazyload" alt="">
-                                                            </a>
-
-                                                            <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
-                                                                    <h5>Fantasy Crunchy Choco Chip Cookies</h5>
+                                                    @foreach(var item in basketItems)
+                                                    {
+                                                        <li class="product-box-contain">
+                                                            <div class="drop-cart">
+                                                                
+                                                                <a href="product-left-thumbnail.html" class="drop-image">
+                                                                    <img src="~/assets/images/vegetable/product/@item.Image"
+                                                                         class="blur-up lazyload" alt="">
                                                                 </a>
-                                                                <h6><span>1 x</span> $80.58</h6>
-                                                                <button class="close-button close_button">
-                                                                    <i class="fa-solid fa-xmark"></i>
-                                                                </button>
-                                                            </div>
-                                                        </div>
-                                                    </li>
 
-                                                    <li class="product-box-contain">
-                                                        <div class="drop-cart">
-                                                            <a href="product-left-thumbnail.html" class="drop-image">
-                                                                <img src="~/assets/images/vegetable/product/2.png"
-                                                                     class="blur-up lazyload" alt="">
-                                                            </a>
-
-                                                            <div class="drop-contain">
-                                                                <a href="product-left-thumbnail.html">
-                                                                    <h5>
-                                                                        Peanut Butter Bite Premium Butter Cookies 600 g
-                                                                    </h5>
-                                                                </a>
-                                                                <h6><span>1 x</span> $25.68</h6>
-                                                                <button class="close-button close_button">
-                                                                    <i class="fa-solid fa-xmark"></i>
-                                                                </button>
+                                                                <div class="drop-contain">
+                                                                    <a href="product-left-thumbnail.html">
+                                                                        <h5>@item.Name</h5>
+                                                                    </a>
+                                                                    <h6><span>@item.Count x</span>@item.Price</h6>
+                                                                    <a class="product-item_remove" asp-controller="BasketItem" asp-action="RemoveFromBasket" asp-route-productId="@item.Id">
+                                                                        <button class="close-button close_button">
+                                                                            <i class="fa-solid fa-xmark"></i>
+                                                                        </button>
+                                                                    </a>
+                                                                </div>
                                                             </div>
-                                                        </div>
-                                                    </li>
+                                                        </li>
+                                                    }
+                                                    
+                                                    
+                                                   
                                                 </ul>
 
                                                 <div class="price-box">
                                                     <h5>Total :</h5>
-                                                    <h4 class="theme-color fw-bold">$106.58</h4>
+                                                    <h4 class="theme-color fw-bold">$@totalPrice</h4>
                                                 </div>
 
                                                 <div class="button-group">

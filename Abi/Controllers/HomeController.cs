@@ -12,7 +12,8 @@ namespace Abi.Controllers
         [Authorize]
         public IActionResult Index()
         {
-            return View();
+            var products = _context.Products.ToList();
+            return View(products);
         }
         public async Task<IActionResult> Test()
         {

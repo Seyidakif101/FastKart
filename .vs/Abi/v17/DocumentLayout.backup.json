@@ -3,60 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\viewmodels\\userviewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\viewmodels\\userviewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\views\\basketitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\views\\basketitem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\viewmodels\\emailviewmodels\\smtpsettingsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\viewmodels\\emailviewmodels\\smtpsettingsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\controllers\\basketitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\controllers\\basketitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\abstractions\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\abstractions\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\configurations\\basketitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\configurations\\basketitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|c:\\users\\student\\desktop\\seyidtask\\abi\\abi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B32F319-38B6-4254-A7EE-E5FDFAEB733C}|Abi\\Abi.csproj|solutionrelative:abi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Abi\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Abi\\Views\\Home\\Index.cshtml",
+              "DocumentIndex": 4,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "Abi\\Services\\BasketService.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Services\\BasketService.cs",
+              "RelativeToolTip": "Abi\\Services\\BasketService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T05:07:22.29Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:07:20.684Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "ProductConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Configurations\\ProductConfiguration.cs",
-              "RelativeDocumentMoniker": "Abi\\Configurations\\ProductConfiguration.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Configurations\\ProductConfiguration.cs",
-              "RelativeToolTip": "Abi\\Configurations\\ProductConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABUAAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Abi\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Models\\Product.cs",
+              "RelativeToolTip": "Abi\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:48:47.641Z",
+              "WhenOpened": "2026-01-09T07:05:32.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Abi\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Models\\AppUser.cs",
+              "RelativeToolTip": "Abi\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:05:05.161Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Abi\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Abi\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Title": "BasketItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Configurations\\BasketItemConfiguration.cs",
+              "RelativeDocumentMoniker": "Abi\\Configurations\\BasketItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Configurations\\BasketItemConfiguration.cs",
+              "RelativeToolTip": "Abi\\Configurations\\BasketItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:40:14.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginVM.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\ViewModels\\UserViewModels\\LoginVM.cs",
-              "RelativeDocumentMoniker": "Abi\\ViewModels\\UserViewModels\\LoginVM.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\ViewModels\\UserViewModels\\LoginVM.cs",
-              "RelativeToolTip": "Abi\\ViewModels\\UserViewModels\\LoginVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:20:04.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Abi\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Abi\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAPgGAAAAAAAAAAAYwAkHAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T04:14:40.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Abi\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Abi\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:09:17.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Program.cs",
-              "RelativeDocumentMoniker": "Abi\\Program.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Program.cs",
-              "RelativeToolTip": "Abi\\Program.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:06:38.042Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SmtpSettingsVM.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\ViewModels\\EmailViewModels\\SmtpSettingsVM.cs",
-              "RelativeDocumentMoniker": "Abi\\ViewModels\\EmailViewModels\\SmtpSettingsVM.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\ViewModels\\EmailViewModels\\SmtpSettingsVM.cs",
-              "RelativeToolTip": "Abi\\ViewModels\\EmailViewModels\\SmtpSettingsVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:04:17.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IEmailService.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Abstractions\\IEmailService.cs",
-              "RelativeDocumentMoniker": "Abi\\Abstractions\\IEmailService.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Abstractions\\IEmailService.cs",
-              "RelativeToolTip": "Abi\\Abstractions\\IEmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:02:00.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Contexts\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Abi\\Contexts\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Contexts\\AppDbContext.cs",
-              "RelativeToolTip": "Abi\\Contexts\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:40:40.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EmailService.cs",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Services\\EmailService.cs",
-              "RelativeDocumentMoniker": "Abi\\Services\\EmailService.cs",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Services\\EmailService.cs",
-              "RelativeToolTip": "Abi\\Services\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:00:57.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Abi\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Abi\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAACcGAAAAAAAAAAAQwH0GAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T05:16:49.216Z",
+              "WhenOpened": "2026-01-09T07:04:12.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Abi\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Abi\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAGEFAAAAAAAAAAAQwJIFAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-09T05:17:50.324Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Program.cs",
+              "RelativeDocumentMoniker": "Abi\\Program.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Program.cs",
+              "RelativeToolTip": "Abi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T06:57:27.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\appsettings.json",
-              "RelativeDocumentMoniker": "Abi\\appsettings.json",
-              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\appsettings.json",
-              "RelativeToolTip": "Abi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-06T08:38:07.581Z",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Abi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Abi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAuwBgBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T06:43:58.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Abi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Abi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAB0CAAAAAAAAAAAuwDcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T06:37:35.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\BasketItem\\Index.cshtml",
+              "RelativeDocumentMoniker": "Abi\\Views\\BasketItem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Views\\BasketItem\\Index.cshtml",
+              "RelativeToolTip": "Abi\\Views\\BasketItem\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAACpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-09T06:34:08.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasketItemController.cs",
+              "DocumentMoniker": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Controllers\\BasketItemController.cs",
+              "RelativeDocumentMoniker": "Abi\\Controllers\\BasketItemController.cs",
+              "ToolTip": "C:\\Users\\student\\Desktop\\SeyidTask\\Abi\\Abi\\Controllers\\BasketItemController.cs",
+              "RelativeToolTip": "Abi\\Controllers\\BasketItemController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T06:32:55.119Z",
               "EditorCaption": ""
             }
           ]

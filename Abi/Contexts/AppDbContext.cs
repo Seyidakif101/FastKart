@@ -16,5 +16,6 @@ namespace Abi.Contexts
             base.OnModelCreating(builder);
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
     }
 }

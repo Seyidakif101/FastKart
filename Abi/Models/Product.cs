@@ -9,6 +9,7 @@
         public int ReytingCount { get; set; }
         public string? MainImageUrl { get; set; }
         public string? HoverImageUrl { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; } = [];
     }
 }
 
