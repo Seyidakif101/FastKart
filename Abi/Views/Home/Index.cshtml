@@ -506,101 +506,72 @@
 
                 <div class="section-b-space">
                     <div class="product-border border-row overflow-hidden">
-                        <div class="product-box-slider no-arrow">
-                            <div>
-                                @foreach(var item in Model)
+                        <div class="container">
+                            <div class="row g-3">
+                                <!-- ROW BURADADIR -->
+                                @foreach (var item in Model)
                                 {
-                                <div class="row m-0">
-                                    <div class="col-12 px-0">
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <!-- 4 sütun -->
                                         <div class="product-box">
                                             <div class="product-image">
                                                 <a href="product-left-thumbnail.html">
                                                     <img src="~/assets/images/vegetable/product/@item.MainImageUrl"
                                                          class="img-fluid blur-up lazyload" alt="">
                                                 </a>
+
                                                 <ul class="product-option">
-                                                    <li data-bs-toggle="tooltip" data-bs-placement="top"
-                                                        title="View">
-                                                        <a href="javascript:void(0)" data-bs-toggle="modal"
-                                                           data-bs-target="#view">
+                                                    <li title="View">
+                                                        <a href="#" data-bs-toggle="modal" data-bs-target="#view">
                                                             <i data-feather="eye"></i>
                                                         </a>
                                                     </li>
-
-                                                    <li data-bs-toggle="tooltip" data-bs-placement="top"
-                                                        title="Compare">
+                                                    <li title="Compare">
                                                         <a href="compare.html">
                                                             <i data-feather="refresh-cw"></i>
                                                         </a>
                                                     </li>
-
-                                                    <li data-bs-toggle="tooltip" data-bs-placement="top"
-                                                        title="Wishlist">
-                                                        <a href="wishlist.html" class="notifi-wishlist">
+                                                    <li title="Wishlist">
+                                                        <a href="wishlist.html">
                                                             <i data-feather="heart"></i>
                                                         </a>
                                                     </li>
                                                 </ul>
                                             </div>
+
                                             <div class="product-detail">
-                                                <a href="product-left-thumbnail.html">
-                                                    <h6 class="name">@item.Name</h6>
-                                                </a>
+                                                <h6 class="name">@item.Name</h6>
+                                                <h5 class="price">$@item.Price</h5>
 
-                                                <h5 class="sold text-content">
-                                                    <span class="theme-color price">$@item.Price</span>
-                                                </h5>
-
-                                                    <div class="rating-box">
-                                                        <ul>
-                                                            @for (int i = 0; i < item.ReytingCount; i++)
-                                                            {
-                                                                <li><i class="fa fa-star"></i></li>
-                                                            }
-
-                                                            @for (int i = 0; i < 5 - item.ReytingCount; i++)
-                                                            {
-                                                                <li><i class="fa fa-star-o"></i></li>
-                                                            }
-
-                                                        </ul>
-                                                    </div>
-
-                                                <div class="add-to-cart-box">
-                                                    <a asp-controller="BasketItem" asp-action="AddToBasket" asp-route-productId="@item.Id">
-
-                                                    <button class="btn btn-add-cart addcart-button">
-                                                        Add
-                                                        <span class="add-icon">
-                                                            <i class="fa-solid fa-plus"></i>
-                                                        </span>
-                                                    </button>
-                                                    </a>
-                                                    
-                                                    <div class="cart_qty qty-box">
-                                                        <div class="input-group">
-                                                            <button type="button" class="qty-left-minus"
-                                                                    data-type="minus" data-field="">
-                                                                <i class="fa fa-minus" aria-hidden="true"></i>
-                                                            </button>
-                                                            <input class="form-control input-number qty-input"
-                                                                   type="text" name="quantity" value="0">
-                                                            <button type="button" class="qty-right-plus"
-                                                                    data-type="plus" data-field="">
-                                                                <i class="fa fa-plus" aria-hidden="true"></i>
-                                                            </button>
-                                                        </div>
-                                                    </div>
+                                                <div class="rating-box">
+                                                    <ul>
+                                                        @for (int i = 0; i < item.ReytingCount; i++)
+                                                        {
+                                                            <li><i class="fa fa-star"></i></li>
+                                                        }
+                                                        @for (int i = 0; i < 5 - item.ReytingCount; i++)
+                                                        {
+                                                            <li><i class="fa fa-star-o"></i></li>
+                                                        }
+                                                    </ul>
                                                 </div>
+
+                                                <a asp-controller="BasketItem"
+                                                   asp-action="AddToBasket"
+                                                   asp-route-productId="@item.Id"
+                                                   class="btn btn-add-cart w-100">
+                                                    Add <i class="fa fa-plus ms-1"></i>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                                 }
+
                             </div>
                         </div>
                     </div>
                 </div>
+
 
                 <div class="title">
                     <h2>Bowse by Categories</h2>
